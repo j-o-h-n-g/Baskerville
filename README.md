@@ -16,7 +16,7 @@ Suggested invocation
 
 baskerville -d pcapfile:/data/pcap -f 100M -l 10 -s HTTPS,OpenVPN ring:eth0
 
-Dumps packets from eth0 to pcap files in /data/pcap split into 100Mb chunks.  Where HTTP and OpenVPN
+Dumps packets from eth0 to pcap files in /data/pcap split into 100Mb chunks.  Where HTTPS and OpenVPN
 sessions are detected then only the first 10 packets are saved to the pcap.
 
 This version is BETA. Use at your own risk!
